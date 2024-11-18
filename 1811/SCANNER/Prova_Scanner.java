@@ -6,6 +6,7 @@ public class Prova_Scanner {
         // Inizializzazione di tipo SCANNER
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci Username");
+        // inseriamo un valore - in questo caso stringa - da tastiera
         String userName = scanner.nextLine();
         System.out.println("L'username è: " + userName);
         System.out.println("La lunghezza della stringa è: " + userName.length());
