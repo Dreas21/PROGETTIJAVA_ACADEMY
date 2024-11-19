@@ -40,7 +40,7 @@ public class Esercizio_4 {
                             System.out.println();
                         } else {
                             ArrayList<Integer> posti = new ArrayList<Integer>();
-                            // aggiungiamo alla posizione subito disponibile un valore che contiene [riga, colonna]
+                            // creiamo un valore posto che contiene [riga, colonna]
                             posti.add(riga);
                             posti.add(colonna);
                             if (prenotazione.isEmpty()) {
